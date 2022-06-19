@@ -11,7 +11,7 @@ publisher: Horrid Enterprises, Ltd.
 # "plantuml" command must be in your path, if you enable this feature.
 #
 # Default, if not specified: false
-use_plantuml: false
+use_plantuml: true
 
 # Whether PDF generation uses Weasy Print (true) or LaTeX (false). Defaults to
 # false (LaTeX).
