@@ -2,10 +2,10 @@ copyright:
   owner: Joe Horrid
   year: 2017
 
-title: "My Life in the Theater"
-subtitle: "That's the way it goes"
+title: "Java is simple"
+# subtitle: "That's the way it goes"
 
-publisher: Horrid Enterprises, Ltd.
+publisher: It's me.
 
 # Whether or not to enable PlantUML. You must install PlantUML, and the
 # "plantuml" command must be in your path, if you enable this feature.
@@ -24,7 +24,7 @@ use_weasyprint: true
 
 # Multiple authors are permitted.
 author:
-- Joe Horrid
+- Luan Vu
 
 # Book identifier is optional.
 #identifier:

@@ -1,120 +1,70 @@
-# Java là gì
+# Chương 1. Java là gì
 
+Java là một ngôn ngữ lập trình được phát triển bởi James Gosling tại Sun Microsystems. Phiên bản 1.0 được ra đời năm 1995.
+Java ban đầu được ra đời nhằm dễ dàng thay thế C/C++ để chạy trên các thiết bị mạng và hệ thống nhúng. Tuy nhiên, team Java nhận ra nó quá to lớn so với mục đích ban đầu. Thêm việc bùng nổ của internet và web những năm đó, Java đã trở thành một trong những ngôn ngữ lập trình được dùng rộng rãi nhất, xuất hiện không chỉ trong những ứng dựng thiết yếu trên internet mà còn trong hàng tỷ thiết bị gia dụng, thiết bị thông minh.  
 
-Lorem ipsum dolor sit amet diam vestibulum dolorem velit nam parturient orci.
-Dictum mollis et. Odio ut odio ullamcorper diam ac. Risus a wisi nec wisi
-aliquet. Suscipit platea et massa in mattis. Id ac risus. Necessitatibus
-pharetra risus. Cursus dui nunc ut magna quam. Sem ut nec curabitur ut sed. Id
-nec neque ipsum vestibulum vestibulum sodales purus ornare.
+Mục tiêu thiết kế của Java bao gồm:
 
-[See @WatsonCrick1953]
+*   Đơn giản, hướng đối tượng và quen thuộc
+*   Mạnh mẽ và bảo mật
+*   Kiến trúc trung lập và Portable
+*   Hiệu năng cao
+*   Interpreted, Threaded, và Dynamic
 
-Nec aliquam magnam luctus et mi tellus nec lacus duis elit convallis. Sed amet
-a. Metus sed nunc. Ligula per venenatis. Mi etiam sagittis. Mauris in
-scelerisque. Porta non vel ut nunc dictum. Tincidunt id massa. Consectetuer
-dui sodales elit ridiculus euismod. Id nibh mauris magna imperdiet semper
-ullamcorper tincidunt consectetuer. Nec dolor amet. Ultricies amet aliqua
-elementum nec accumsan. Eget magna cras non sociosqu gravida. Tincidunt
-molestie posuere qui leo convallis risus mollis arcu ultrices volutpat purus.
-Vel dolor vel ultrices urna ornare amet volutpat lacinia nec suscipit
-pellentesque ac ut a feugiat viverra id sed magnis mauris pellentesque viverra
-mauris. Consequat cras ipsum. Mauris etiam fermentum. Enim consectetuer sem.
-Fusce metus sed. Felis erat adipiscing suscipit fusce sodales.
-
-Here's a short-form PlantUML example:
-
-```plantuml
-@startuml
-client->server: SYN
-server->client: SYN+ACK
-client->server: ACK
-@enduml
-```
-
-Here's a longer-form PlantUML example:
-
-~~~ {.plantuml title="4-way handshake"}
-@startuml
-client->server: FIN
-server->client: ACK
-server->client: FIN
-client->server: ACK
-@enduml
-~~~
-
-Nec augue reprehenderit mattis eu scelerisque aliquam elementum feugiat.
-Aliquam eget malesuada. Suscipit odio risus. Id neque quam neque tortor amet.
-Integer mauris consectetuer. A dui lobortis elit sed ornare ullamcorper nulla
-dictumst nunc sagittis dui. Sed maecenas rutrum in dolor etiam vestibulum
-montes pulvinar. Vel interdum nulla. A eius integer eleifend urna rerum
-accumsan elementum nulla. Aenean diam accusamus imperdiet condimentum cursus.
-Interdum venenatis turpis. Integer sed fermentum. Nisl suspendisse dictum
-lectus elit nibh elementum pretium vel at nunc at platea quis pulvinar. Et at
-mi. Mi eleifend neque a in aliquam. Etiam nunc turpis. Primis vestibulum massa
-auctor luctus ullamcorper. Tempus sollicitudin vitae. Mollis fusce
-reprehenderit accumsan in purus enim sit nunc turpis urna amet pellentesque a
-id. Nec rhoncus molestiae velit tellus fusce. Magna scelerisque enim. Morbi
-nec eget. Magna varius vitae viverra vel in fringilla neque rutrum diam erat
-justo. Nostrud magna leo. Pretium suspendisse scelerisque.
+> Fact: Kể từ lúc xuất hiện năm 1995, Java chưa bao giờ rời khỏi vị trí top 3 những ngôn ngữ lập trình thông dụng nhất.
 
 +++
 
-Mus libero tellus ac dui magna suspendisse vel pellentesque. Erat scelerisque
-sapien. Tristique sapien eleifend id risus vel. Facilisis scelerisque donec
-con mattis id ut quis eros. Natoque at libero.
+Java được lấy ý tưởng rất nhiều từ C/C++, đặc biệt là cú pháp. Nhưng đương nhiên, Java đặc biệt loại bỏ một số thứ từ C/C++ mà họ thấy không hợp lý, có thể kể đến:
 
-Platea maecenas vitae ac nisl id. Porttitor libero placerat et vel lobortis in
-suspendisse duis. At scelerisque mauris. Enim wisi dapibus. Lobortis
-vestibulum pulvinar dictumst sed wisi id malesuada sodales.
+#### Không Structures, Unions, Functions
+Để đơn giản hóa Java và hướng nó đến là ngôn ngữ lập trình thuần hướng đối tượng, việc loại bỏ những cấu trúc và phong cách code tùy tiện bị loại bỏ.
 
-Non convallis aliquam urna quam amet. Metus orci elit. Mattis mauris malesuada
-vitae elementum dolor. Et erat integer sed malesuada eu. Eget penatibus
-faucibus sit magna dolor aliquet sem eu rutrum dui ut. Id consequat aenean.
-Nunc pede felis et integer mi. Facilisis posuere ultrices. Lorem nibh sodales.
-Vivamus amet eu nunc porta quis nunc tellus ut. Morbi tristique accumsan.
-Ipsum pellentesque velit. Auctor dapibus aliquip dui eget nec erat mauris est.
-Quis et parturient condimentum wisi amet ac nec lectus. Sed vulputate semper.
-Justo nascetur orci convallis libero ipsum faucibus molestie libero. Ante
-justo proin. Amet a tortor. Vestibulum platea erat. Id ipsum tempus eleifend
-totam mi. In sapien non amet elementum faucibus scelerisque commodo donec.
-Malesuada hac imperdiet. Molestie at dolor. Curabitur sagittis rutrum. Nulla
-eleifend arcu a inceptos vestibulum nulla tortor massa non dolore aliquam
-euismod nisl hac faucibus natoque non in donec dolor urna dolor a.
+#### Không Enums
+Với cùng lý do trên, họ đã từng nghĩ rằng Enums là một thứ bất hợp lý. Nhưng đến cuối cùng, Enums quá tiện lợi nên đã được thêm vào trong phiên bản 1.5. Và giờ đây, sử dụng Enums cũng trở thành một coding convention tiêu chuẩn.
 
-Luctus ligula possimus. Bibendum orci vestibulum ligula mauris egestas.
-Blandit dictum pede. Nec amet arcu ornare nullam eleifend taciti recusandae
-aliquet. Arcu leo phasellus. Quam arcu id. Fusce dignissim id turpis ante
-quisque. Vulputate nascetur ac. Ut vitae fringilla. Mauris massa integer
-porttitor imperdiet nunc massa platea maecenas. Nulla elementum sed. Malesuada
-pellentesque wisi mollis ut porttitor. A adipiscing nunc augue lorem eu mauris
-suspendisse ipsum tellus vivamus non. Aliquam est sodales. Ipsum auctor ipsum
-tempus tincidunt urna tellus autem eget. Modi non nunc. Eu ultrices mauris
-ipsum elit tellus wisi tempus et. Congue risus dignissim feugiat in
-pellentesque. Risus interdum et. Sed dignissim dignissimos pretium libero vel
-mauris neque pharetra. Id vitae id. Elementum lorem ligula. Urna mattis eget
-mauris ut ut. Non ut tellus. Maecenas nibh eu arcu elit nonummy. Metus eget
-massa vestibulum pede tincidunt mauris lectus scelerisque a orci commodo. In
-felis taciti nulla in est. Sit in gravida. Elit felis nonummy. Dolor ipsum
-eget. Ac metus inceptos. Id vel duis non morbi quam. Donec at eget nulla massa
-amet. Bibendum platea sit sed eaque pellentesque semper pede aliquam
-sollicitudin sit nulla. Vel sollicitudin wisi eu massa quis in lectus erat.
-Tincidunt mollis tortor. Rhoncus posuere sociosqu ut sed sit. Felis ipsum sed.
-Eros luctus tempus et eget lorem rutrum aliquam mi. Nec id sed volutpat sit
-tellus lectus vel vel. Condimentum arcu consectetuer. Wisi con congue eros
-urna fames elementum tellus quis. Ornare varius ante. Tempus leo sed lectus in
-sed erat expedita quisque lorem placerat nunc. Velit erat quam posuere aliquam
-lobortis sit eget et. Aliquam nec non et a elit donec maecenas in. Phasellus
-amet imperdiet in ipsum sem. Eleifend id magna urna morbi tempus nec dolor
-elit. Augue aliquam lectus. Eu lectus velit. Magna sed justo. Vulputate lacus
-duis pellentesque dolor consectetuer. Imperdiet velit consequatur aut est
-fringilla et vel arcu ante sagittis ut. Magna vestibulum enim. Nunc porttitor
-eros sed feugiat est. Magna ipsum justo in est at aenean nibh maecenas pretium
-mauris ac. Suscipit nonummy elementum. Ut ac ac. Suscipit vel ligula eu ante
-curabitur. Dolor vitae cupiditate. Eget vestibulum felis. Morbi odio sodales
-sit ac quam. Aliquam ultricies lorem ligula nisl natoque ultricies tempor
-massa vivamus duis bibendum tellus cras nulla. Nulla nec lectus sagittis
-ligula massa. Duis maecenas nec. Id reiciendis justo adipiscing sit aliquet.
-Elementum metus pede ut facilisis vitae facilisi arcu sed. Dui iaculis wisi
-donec lectus hendrerit. Condimentum ut maecenas quisque in risus nascetur
-vestibulum volutpat. Nibh augue sociosqu eget eros sagittis pede lacus
-vestibulum.
+#### Không đa kế thừa
+Đa kế thừa trong C++ quả thực là quá rối rắm và phức tạp. Nếu đặt nó trong tay sai người sẽ trở thành ác mộng. Java muốn dùng Interfaces để thay thế. Tuy nhiên Interfaces sẽ khó cho việc sử dụng lại code, điều mà đa kế thừa dễ dàng đạt được. Vì lẽ đó mà Java ngày càng cải tiến Interfaces để khắc phục.
+
+#### Không Pointers
+Gần như không có ai dám nghi ngờ Pointer trong ngôn ngữ lập trình thực sự là con ác mộng. Thuật ngữ khó tiếp cận, dễ xảy ra lỗi. Loại bỏ pointer rõ ràng là việc làm đúng đắn. Sự thật là một vài ngôn ngữ lập trình hiện đại vẫn dùng Pointer nhưng đã mang hàm nghĩa khác so với Pointer trong C/C++.
+
++++
+
+Thuở sơ khai, Java bị phàn nàn là chạy chậm hơn C/C++ quá nhiều. Qua nhiều cải tiến cho đến tận ngày nay, Java vẫn chậm hơn C/C++. Nhưng hóa ra, phần cứng ngày càng phát triển, một chút nhanh chậm của một vài dòng code không phải lúc nào cũng là vấn đề quá to tát. Ngược lại, một ngôn ngữ lập trình dễ tiếp cận, đáng tin cậy lại quan trọng hơn.  
+Bù vào khuyết điểm tốc độ, Java lại có ưu điểm so với C/C++ hay ngay cả các ngôn ngữ khác:
+
+#### Không phụ thuộc vào nền tảng
+"Write once, run everywhere" là slogan marketing rõ ràng là vô cùng thành công của Java. Những ngôn ngữ C/C++ bị phụ thuộc nền tảng. Khi bạn thay đổi từ Linux sang Window hay MacOS, bạn phải biên dịch lại toàn bộ code. Thậm chí việc biên dịch chưa chắc đã thành công. Ngược lại, Java chỉ cần được biên dịch ra bytecode một lần và chạy được ở bất kỳ đâu có Java Virtual Machines.
+Java không phải là ngôn ngữ đầu tiên hay cuối cùng có thể "write once, run anywhere", rất nhiều ngôn ngữ có thể làm tương tự như PHP, Python với trình thông dịch, hay Javascript, Ruby, Smalltalk dùng Virtual Machines giống Java có thể làm được. Nhưng nếu nhìn vào những nơi Java có thể xuất hiện: máy tính, điện thoại, tivi, tủ lạnh, đầu đọc thẻ,... thì rõ ràng không có ngôn ngữ nào dám phủ nhập cái slogan đó cả.
+
+#### Đơn giản, dễ học nhưng mạnh mẽ
+Nếu so sánh với C/C++ thì Java đơn giản hơn rõ ràng. Ngôn ngữ đơn giản, dễ lập trình, dễ sửa lỗi, có nhiều công cụ hỗ trợ lập trình vô cùng mạnh mẽ. Khá dễ hiểu vì sao Java lại được lựa chọn cho những chương trình lớn.
+Đơn giản là thế, nhưng Java cũng đi kèm sẵn rất nhiều thư viện giúp bạn dễ dàng xây dựng các chương trình lớn mà không cần phải thêm quá nhiều thư viện ngoài. Có thể kể đến những thư viện sẵn có trong Java APIs:
+
+*   IO/NIO
+*   Networking
+*   Reflection
+*   Concurrency
+*   Generics
+*   Scripting/Compiler
+*   Collections
+*   XML
+*   Security
+*   Internationalization and localization
+*   Database
+*   Java Naming and Directory Interface (JNDI) for lookup and discovery
+*   RMI and CORBA for distributed application development
+*   JMX for managing and monitoring applications
+*   User interface libraries, which include:
+*   GUI widget toolkit(AWT, Swing, JavaFX)
+*   APIs for audio/video capture, processing, and playback
+
+và nhiều thư viện khác nữa.
+
++++
+
+Sun Microsystems được Oracle mua lại năm 2009, qua đó Oracle tiếp quản Java. Qua 27 năm phát triển, Java thay đổi rất nhiều, đặc biệt 5 năm gần đây, bổ sung rất nhiều cú pháp và các tính năng mới. Đồng thời Oracle cũng vun đắp nền tảng Java, cải thiện hiệu suất, mở rộng sang các khía cạnh khác như native, cloud, serverless,...Nhưng ngược lại, cũng mang đậm tính thương mại.
+
+### Kết luận
+Chúng ta đã được biết qua được lịch sử hình thành và phát triển của Java. Java là một ngôn ngữ lập trình mạnh mẽ và vô cùng thông dụng ngày nay. 

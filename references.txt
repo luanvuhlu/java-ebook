@@ -5,3 +5,5 @@ https://www.java.com/en/download/help/whatis_java.html
 https://google.github.io/styleguide/cppguide.html#Exceptions
 https://google.github.io/styleguide/javaguide.html
 https://www.oracle.com/java/technologies/language-environment.html
+https://web.archive.org/web/20100210225651/http://www.java.com/en/javahistory/
+https://www.computerweekly.com/feature/Write-once-run-anywhere
