@@ -1,8 +1,4 @@
-# Enumerations, Wrapper Classes
+# Enumerations
 
 ### Enums
-
-### Wrapper classes
-
-#### Autoboxing and Unboxing
 

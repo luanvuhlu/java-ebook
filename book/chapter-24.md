@@ -1,2 +1,3 @@
 # Strings
 
+### String pool
