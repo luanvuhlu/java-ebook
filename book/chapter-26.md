@@ -1,2 +1,2 @@
-# Khai báo biến với var
+# var
 

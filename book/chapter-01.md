@@ -18,7 +18,7 @@ Mục tiêu thiết kế của Java bao gồm:
 Java được lấy ý tưởng rất nhiều từ C/C++, đặc biệt là cú pháp. Nhưng đương nhiên, Java đặc biệt loại bỏ một số thứ từ C/C++ mà họ thấy không hợp lý, có thể kể đến:
 
 #### Không Structures, Unions, Functions
-Để đơn giản hóa Java và hướng nó đến là ngôn ngữ lập trình thuần hướng đối tượng, việc loại bỏ những cấu trúc và phong cách code tùy tiện bị loại bỏ.
+Để đơn giản hóa Java và hướng nó đến là ngôn ngữ lập trình thuần hướng đối tượng, những cấu trúc và phong cách code không phù hợp bị loại bỏ.
 
 #### Không Enums
 Với cùng lý do trên, họ đã từng nghĩ rằng Enums là một thứ bất hợp lý. Nhưng đến cuối cùng, Enums quá tiện lợi nên đã được thêm vào trong phiên bản 1.5. Và giờ đây, sử dụng Enums cũng trở thành một coding convention tiêu chuẩn.
@@ -27,7 +27,7 @@ Với cùng lý do trên, họ đã từng nghĩ rằng Enums là một thứ b�
 Đa kế thừa trong C++ quả thực là quá rối rắm và phức tạp. Nếu đặt nó trong tay sai người sẽ trở thành ác mộng. Java muốn dùng Interfaces để thay thế. Tuy nhiên Interfaces sẽ khó cho việc sử dụng lại code, điều mà đa kế thừa dễ dàng đạt được. Vì lẽ đó mà Java ngày càng cải tiến Interfaces để khắc phục.
 
 #### Không Pointers
-Gần như không có ai dám nghi ngờ Pointer trong ngôn ngữ lập trình thực sự là con ác mộng. Thuật ngữ khó tiếp cận, dễ xảy ra lỗi. Loại bỏ pointer rõ ràng là việc làm đúng đắn. Sự thật là một vài ngôn ngữ lập trình hiện đại vẫn dùng Pointer nhưng đã mang hàm nghĩa khác so với Pointer trong C/C++.
+Gần như không có ai dám nghi ngờ Pointer trong ngôn ngữ lập trình thực sự là quá khó tiếp cận và dễ xảy ra lỗi. Loại bỏ pointer rõ ràng là việc làm đúng đắn. Sự thật là một vài ngôn ngữ lập trình hiện đại vẫn dùng Pointer nhưng đã mang hàm nghĩa khác so với Pointer trong C/C++.
 
 +++
 
@@ -35,7 +35,7 @@ Thuở sơ khai, Java bị phàn nàn là chạy chậm hơn C/C++ quá nhiều.
 Bù vào khuyết điểm tốc độ, Java lại có ưu điểm so với C/C++ hay ngay cả các ngôn ngữ khác:
 
 #### Không phụ thuộc vào nền tảng
-"Write once, run everywhere" là slogan marketing rõ ràng là vô cùng thành công của Java. Những ngôn ngữ C/C++ bị phụ thuộc nền tảng. Khi bạn thay đổi từ Linux sang Window hay MacOS, bạn phải biên dịch lại toàn bộ code. Thậm chí việc biên dịch chưa chắc đã thành công. Ngược lại, Java chỉ cần được biên dịch ra bytecode một lần và chạy được ở bất kỳ đâu có Java Virtual Machines.
+"Write once, run everywhere" là slogan marketing vô cùng thành công của Java. Những ngôn ngữ C/C++ bị phụ thuộc nền tảng. Khi bạn thay đổi từ Linux sang Window hay MacOS, bạn phải biên dịch lại toàn bộ code. Thậm chí việc biên dịch chưa chắc đã thành công. Ngược lại, Java chỉ cần được biên dịch ra bytecode một lần và chạy được ở bất kỳ đâu có Java Virtual Machines.
 Java không phải là ngôn ngữ đầu tiên hay cuối cùng có thể "write once, run anywhere", rất nhiều ngôn ngữ có thể làm tương tự như PHP, Python với trình thông dịch, hay Javascript, Ruby, Smalltalk dùng Virtual Machines giống Java có thể làm được. Nhưng nếu nhìn vào những nơi Java có thể xuất hiện: máy tính, điện thoại, tivi, tủ lạnh, đầu đọc thẻ,... thì rõ ràng không có ngôn ngữ nào dám phủ nhập cái slogan đó cả.
 
 #### Đơn giản, dễ học nhưng mạnh mẽ

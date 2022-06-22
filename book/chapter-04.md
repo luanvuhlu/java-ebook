@@ -1,7 +1,7 @@
 # Kiểu dữ liệu
 
 Java là ngôn ngữ có kiểu dữ liệu tĩnh (statically-typed), tức là tất cả các biến phải được khai báo kiểu dữ liệu (rõ ràng hoặc được ngầm hiểu) và không thể thay đổi sau này.
-Trái ngược với statically-typed là dynamic-typed, nơi biến có thể được sử dụng trước cả khi khai báo. Kiểu dữ liệu cũng không cần khai báo và có thể được thay đổi tùy ý. Dynamic-typed mang lại sự tiện lợi cho người lập trình nhưng ngược lại rất dễ đến lỗi.
+Trái ngược với statically-typed là dynamic-typed, nơi biến có thể được sử dụng trước cả khi khai báo. Kiểu dữ liệu cũng không cần khai báo và có thể được thay đổi tùy ý. Dynamic-typed mang lại sự tiện lợi cho người lập trình nhưng ngược lại rất dễ dẫn đến lỗi.
 
 +++
 
@@ -22,11 +22,15 @@ Có ba nhóm kiểu dữ liệu nguyên thủy chính là Numeric, Character và
 
 #### Character Data Types
 
+Char type here
+
 #### Boolean Data Types
+
+Boolean type here
 
 > Fact: Có nhiều tranh cãi cho rằng Java không phải là ngôn ngữ thuần hướng đối tượng xoay quanh việc Java có kiểu dữ liệu nguyên thủy. Thật vậy, những biến có kiểu dữ liệu nguyên thủy không phải đối tượng, việc sử dụng nó đi ngược lại hoàn toàn nguyên tắc của lập trình hướng đối tượng.
 
-Một số điểm cần lưu ý với kiểu dữ liệu nguyên thủy trong Java
+### Một số điểm cần lưu ý với kiểu dữ liệu nguyên thủy trong Java
 
 **Khi gán giá trị vượt quá độ lớn của kiểu dữ liệu, giá trị nhận được sẽ rất khó đoán**
 
@@ -100,7 +104,7 @@ float num1 = 10;
 ```
 **float** rộng hơn **int** nên đoạn trên được chấp nhận.
 
-Có thể bạn sẽ nghĩ đoạn dưới đây sẽ lỗi
+Có thể bạn sẽ nghĩ đoạn dưới đây lỗi
 ```java
 float num1 = 1;
 float num2 = 100;
@@ -110,7 +114,7 @@ nhưng không có lỗi nào ở đây cả. Đoạn trên chạy hoàn toàn b�
 
 Tương tự như **float** và **long**, thì **double** cũng có hậu tố là **D** hoặc **d** (thường dùng **d**)
 
->Fact: Người ta sẽ hay dùng *f* và *d* cho **float** và **double**. Nhưng sẽ dùng *L* cho **long** thay vì *l*. Vì *l* sẽ nhìn khá giống *i* trong hầu hết font chữ. Vậy nên dùng *L* cho dễ phân biệt.
+>Fact: Người ta sẽ hay dùng *f* và *d* cho **float** và **double**. Nhưng sẽ dùng *L* cho **long** thay vì *l*. Vì *l* sẽ nhìn khá giống *I* (i nhưng in hoa) trong nhiều font chữ. Vậy nên dùng *L* cho dễ phân biệt.
 
 **Trong các phép toán, kiểu dữ liệu cao hơn sẽ được ưu tiên, trừ khi ép kiểu**
 

@@ -1,11 +1,25 @@
-# Control Statements
+# Control Flow Statements
 
 ### Decision-making statements
-if-else
-switch
+
+#### if-then Statement
+
+#### if-then-else Statement
+
+#### if-then-else-if Statement
+
+#### switch Statement
 
 ### Looping statements
-for, while, do-while
+
+#### for
+
+#### for-each
+
+#### while-do
+
+#### do-while
 
 ### Branching statements
+
 break, continue, return

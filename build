@@ -75,7 +75,7 @@ uses_references            = os.path.exists(REFERENCES_YAML)
 use_weasyprint             = metadata.get('use_weasyprint', False)
 uses_plantuml              = metadata.get('use_plantuml', False)
 
-COVER_IMAGE                = os.path.join(BOOK_SRC_DIR, 'cover.png')
+COVER_IMAGE                = os.path.join(BOOK_SRC_DIR, 'cover.jpeg')
 COVER_IMAGE_PDF            = os.path.join(BOOK_SRC_DIR, 'cover-pdf.png')
 CHAPTERS                   = sorted(glob(os.path.join(BOOK_SRC_DIR, 'chapter-*.md')))
 COPYRIGHT                  = os.path.join(BOOK_SRC_DIR, 'copyright.md')
