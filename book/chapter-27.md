@@ -1,7 +1,7 @@
 # Arrays
 
-**Arrays** là một object đặc biệt dùng để chứa tập hợp các giá trị khác với số lượng tối đa là không đổi.  
-Ví dụ bạn có một array với số lượng tối đa là 10, thì bạn không thể thêm quá 10 phần tử vào array này.  
+**Arrays** là một object đặc biệt dùng để chứa tập hợp các giá trị với số lượng tối đa là không đổi.  
+Ví dụ bạn có một array với số lượng tối đa là 10 thì bạn không thể thay đổi số lượng tối đa này, cũng như không thể thêm quá 10 phần tử vào.  
 Khai báo array:
 ```java
 var arr1 = new int[10];
@@ -51,6 +51,7 @@ int[] arr7[] = new int[2][1];
 int arr8[][] = new int[2][1];
 int[][] arr9 = new int[2][1];
 int[][][][] arr10 = {{}};
+int[][][][] arr11 = null;
 ```
 Bạn không thể xác định kích thước của **arrays** ở phần khai báo. Đoạn dưới đây là sai:
 ```java
@@ -79,7 +80,7 @@ int[][][] arr4 = new int[1][][1];
 ```
 **Kiểu dữ liệu**
 
-Kiểu dữ liệu của **arrays** và các phần tử tuân theo nguyên tắc của kiểu dữ liệu nguyên thủy và **objects**, bạn không được phép thêm phần tử có kiểu dữ liệu không tương thích với **arrays**.  
+Kiểu dữ liệu của **arrays** và các phần tử tuân theo nguyên tắc của kiểu dữ liệu nguyên thủy và **objects**, bạn không được phép thêm phần tử có kiểu dữ liệu không tương thích với kiểu của **arrays**.  
 Các ví dụ dưới đây là sai
 ```java
 int[] arr = new int[]{ "Hello" }; // int và String không tương thích
