@@ -181,6 +181,22 @@ Wrapper classes sẽ được giải thích trong các chương tiếp theo.
 var list = new ArrayList<Integer>();
 ```
 
+**Có thể dùng dấu gạch dưới (\_) cho số**
+
+Java chấp nhận dấu gạch dưới (_) giữa các số. Bạn có thể có nhiều dấu gạch dưới giữa các số.
+```java
+var num1 = 1_000;
+var num2 = 1_000_000;
+var num3 = 1__000___000;
+```
+Dấu gạch dưới ở đầu hoặc cuối số không được chấp nhận. Những ví dụ dưới đây sẽ lỗi
+```java
+var num1 = _1_000;
+var num2 = 1_000_000_;
+var num3 = 1_;
+var num4 = _1;
+```
+
 ### Objects
 
 Ngoại trừ kiểu dữ liệu nguyên thủy thì tất cả đều là Objects. Objects sẽ được giải thích trong các chương tiếp theo.

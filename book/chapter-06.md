@@ -270,7 +270,6 @@ switch (time) {
     case 60*60:
         break;
 }
-```java
 var minute2Second = 60;
 switch (time) {
     case 60*minute2Second: // lỗi do có biến minute2Second
@@ -335,22 +334,11 @@ switch (month) {
     case 1: // lỗi duplicate case label
         break;
 }
-```
-```java
 final var january = 1;
 switch (month) {
     case 1: 
         break;
     case january: // lỗi duplicate case label
-        break;
-}
-```
-```java
-final var january = 1;
-switch (month) {
-    case 2: 
-        break;
-    case january + 1: // lỗi duplicate case label
         break;
 }
 ```
@@ -523,7 +511,16 @@ switch(month.ordinal()) {
 
 ### Looping statements
 
+Đôi khi chúng ta cần phải chạy một đoạn lệnh lặp đi lặp lại nhiều lần. Java cung cấp nhiều loại Looping statements:
+
+*   for
+*   for-each
+*   while-do
+*   do-while
+
 #### for
+
+
 
 #### for-each
 
