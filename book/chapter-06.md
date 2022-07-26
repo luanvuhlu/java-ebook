@@ -520,13 +520,145 @@ switch(month.ordinal()) {
 
 #### for
 
+Câu lệnh **for** là một câu lệnh **loop** cho phép sử dụng một biến trung gian để khai báo, khởi tạo và điều khiển lệnh lặp. Cú pháp như sau:
 
+```java
+for (khởi tạo; điều kiện; thay đổi giá trị) {
+    khối lệnh
+}
+```
+
+Trong đó:
+
+*   Khởi tạo: Có thể khai báo và/hoặc khởi tạo biến tại đây. Chỉ được thực hiện duy nhất một lần
+*   Điều kiện: Nếu điều kiện không còn đúng, cả khối lệnh lặp sẽ dừng lại. Điều kiện sẽ được kiểm tra vào mỗi lần lặp
+* Thay đổi giá trị: Sau mỗi lần lặp (không bao gồm lần đầu tiên), đoạn lệnh này sẽ được thực hiện, mục đích là để thay đổi giá trị của biến điều khiển
+
+Ví dụ đoạn code:
+```java
+for(int i=1; i<10; i++){
+    System.out.println("Number is: " + i);
+}
+```
+In ra
+```txt
+Number is 1
+Number is 2
+Number is 3
+Number is 4
+Number is 5
+Number is 6
+Number is 7
+Number is 8
+Number is 9
+```
+
+Một số đặc điểm của câu lệnh **for**
+
+**Hai dấu chấm phẩy (;) là bắt buộc**
+
+Bạn có thể thiếu một, hai hoặc cả ba biểu thức trong **for**, nhưng các dấu chấm phẩy (;) phải đầy đủ
+```java
+for(var a=10;;){
+    // Câu lệnh
+}
+```
+hoặc
+```java
+var a= 10;
+for(;a<100;){
+    // Câu lệnh
+}
+```
+Nếu không có biểu thức nào, câu lệnh lặp này sẽ lặp không dừng
+```java
+for(;;){
+    // Câu lệnh
+}
+```
+
+**Phần biểu thức điều kiện(nếu có) phải là kiểu boolean**
+Có thể không có
+```java
+for(;;){
+    // Câu lệnh
+}
+```
+Nhưng nếu có, phải là **boolean**
+```java
+for(;1<2;) {
+    // Câu lệnh
+}
+```
+Dưới đây là không hợp lệ
+```java
+for(;1+2;) {
+    // Câu lệnh
+}
+```
+**Không có sự bó buộc việc dùng biến trong các biểu thức**
+
+Bạn có thể khai báo một biến, sử dụng một biến khác làm điều kiện và thay đổi giá trị của một biến khác. Ví dụ
+```java
+var a = 1;
+var b = 2;
+for(var i=0; a<10; b--) {
+    // Câu lệnh
+}
+```
+
+**Mỗi biểu thức có thể là chuỗi các câu lệnh**
+
+```java
+var a = 1;
+var b = 2;
+for(int i=0, j=1; a<10 && b<0; b--, a++) {
+    // Câu lệnh
+}
+```
+
+**Câu lệnh trong khối lặp là không bắt buộc**
+
+Ví dụ:
+```java
+for(int i=1; i<10; i++){
+}
+```
+hoặc
+```java
+for(int i=1; i<10; i++);
+```
+Chú ý dấu chấm phẩy (;) cuối câu trên là bắt buộc
 
 #### for-each
 
-#### while-do
+Đây là một dạng cải tiến của câu lệnh **for**, cho phép bạn dễ dàng lặp qua các phần tử bên trong **array** hoặc những **object** có implement interface **java.lang.Iterable**. Cấu trúc:
+```java
+for(biến tạm : tập hợp phần tử) {
+    // Câu lệnh
+}
+```
+Ví dụ
+```java
+var numbers = new int[]{1, 3, 5, 7, 9}
+for(var num : numbers) {
+    System.out.println("Number is: " + num);
+}
+```
+In ra
+```txt
+Number is 1
+Number is 3
+Number is 5
+Number is 7
+Number is 9
+```
+Không có điều kiện nào trong câu lệnh **for** kiểu này, mặc định nó sẽ duyệt qua cho đến khi hết phần tử trong mảng hoặc không thể tìm thấy phần tử tiếp theo trong Iterable.
 
-#### do-while
+
+#### while-do và do-while
+
+
 
 ### Branching statements
 
